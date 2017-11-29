@@ -1,0 +1,135 @@
+html, body {
+  font-size: 10px;
+  position: relative; }
+
+h3 {
+  border-bottom: 1px solid lightgray; }
+
+.inputImg {
+  margin-bottom: 3rem;
+  padding: .4rem 0rem .4rem 2rem;
+  background: url(../img/avatar.png) no-repeat;
+  background-position: left top;
+  background-size: 18px 36px; }
+
+.formClick {
+  width: 60%;
+  display: none; }
+  .formClick__label {
+    display: block;
+    margin-bottom: .5rem; }
+
+.popup {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 50; }
+
+.formClick input, .formClick button {
+  width: 100%; }
+
+.formClick input {
+  margin-bottom: 1rem; }
+
+.formClick_active {
+  display: block;
+  position: fixed;
+  top: 40%;
+  left: 20%;
+  z-index: 100; }
+
+.nav {
+  margin-bottom: 2rem; }
+
+.logo__img {
+  width: 106px;
+  height: 106px; }
+
+.contact__wrap {
+  margin-bottom: 2rem; }
+.contact__nav {
+  display: flex;
+  justify-content: center; }
+.contact__tel {
+  margin-right: 1.5rem;
+  font-size: 2rem; }
+  .contact__tel:last-child {
+    margin-right: 0; }
+.contact__item {
+  font-size: 1.5rem;
+  margin-right: 1rem; }
+  .contact__item:last-child {
+    margin-right: 0; }
+
+.change {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.enter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.offers {
+  margin-bottom: 3rem; }
+  .offers__select {
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.8rem; }
+    .offers__select:last-child {
+      margin-bottom: 0; }
+
+.wrapInputs select, .wrapInputs span {
+  margin-right: 1rem; }
+
+.classAuto {
+  display: flex;
+  align-items: center; }
+  .classAuto input {
+    margin-right: .4rem; }
+
+.auto__wrap {
+  margin-bottom: 2.5rem; }
+.auto__mark {
+  float: right; }
+.auto__items {
+  padding: .5rem 0 .5rem 2.5rem; }
+.auto__items_bg1, .auto__items_bg2, .auto__items_bg3, .auto__items_bg4 {
+  background: url(../img/Transport-Engine-icon.png) no-repeat;
+  background-size: 20px;
+  background-position: 0 center; }
+.auto__link {
+  float: right; }
+.auto__detail {
+  display: none; }
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .logo {
+    margin-bottom: 1.5rem; }
+
+  .contact__nav {
+    margin-bottom: 2rem; }
+
+  .change, .enter {
+    justify-content: center; } }
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=style.css.map */
